@@ -6,6 +6,9 @@
 trigger:
 - main
 
+- bash: java -version
+- bash: node --version
+
 pool:
   vmImage: ubuntu-latest
 
